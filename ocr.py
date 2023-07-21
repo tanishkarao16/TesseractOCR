@@ -3,6 +3,7 @@ import os
 os.environ['SSL_CERT_FILE'] = certifi.where()
 import streamlit as st
 from PIL import Image
+import pytesseract
 
 
 st.title("Optical Character Recognition.")
