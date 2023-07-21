@@ -4,7 +4,7 @@ os.environ['SSL_CERT_FILE'] = certifi.where()
 import streamlit as st
 from PIL import Image
 import pytesseract
-
+pytesseract.pytesseract.tesseract_cmd = "/opt/homebrew/bin/tesseract"
 
 st.title("Optical Character Recognition.")
 
