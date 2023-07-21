@@ -1,0 +1,2 @@
+buildCommand: ./build.sh
+startCommand: streamlit run ocr.py
